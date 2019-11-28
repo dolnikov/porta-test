@@ -13,12 +13,12 @@ use Src\Porta;
 //add_followme_number
 //update_account
 
-//$porta = new Porta(45);
-//$porta->exec("get_subscriptions", 1);
+$porta = new Porta(45);
+$porta->exec("get_customer_info", 1);
 
 
 $porta = new Porta(70);
-$porta->exec("get_subscriptions", 1);
+$porta->exec("get_customer_info", 1);
 
 
 ?>
