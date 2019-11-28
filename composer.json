@@ -1,0 +1,12 @@
+{
+  "name": "",
+  "description": "",
+  "autoload": {
+    "psr-4": {
+      "Src\\": ["src/", "src/methods"]
+    },
+    "files": [
+      "config.php"
+    ]
+  }
+}
